@@ -46,16 +46,13 @@ const Home = () => {
           <div>
             <h1>by trying something new every day</h1>
           </div>
-          
-          <div className="header-subtitle">
-            <h2>Type input related to you like interests, habits, age... more details will more surprise you.</h2>
-          </div>
+     
 
         </div>
           <div className="prompt-container">
             <textarea
               className="prompt-box"
-              placeholder="start typing here"
+              placeholder="Type input related to you like interests, habits, age... more details will more surprise you."
               value={userInput}
               onChange={onUserChangedText}
             />;
