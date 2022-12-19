@@ -34,7 +34,7 @@ const generateAction = async (req, res) => {
 
     Table of Contents: ${basePromptOutput.text}
 
-    Ideas:
+    5 Ideas:
     `
   
   // I call the OpenAI API a second time with Prompt #2
