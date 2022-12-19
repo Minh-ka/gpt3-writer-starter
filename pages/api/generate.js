@@ -28,13 +28,13 @@ const generateAction = async (req, res) => {
   // I build Prompt #2.
   const secondPrompt = 
     `
-    Take the table of contents and title below and generate a list of ideas for trying to do something new everyday in style of Nassim Taleb. The propose ideas should be specially what to do as a daily challenger.  Make it feel like journey but fun to completed. Explain why benefits.
+    Take the table of contents and title below and generate 5 ideas for trying to do something new everyday in style of Nassim Taleb. The propose ideas should be specially what to do as a daily challenger.  Make it feel like journey but fun to completed. Explain why benefits.
 
     Title: ${req.body.userInput}
 
     Table of Contents: ${basePromptOutput.text}
 
-    5 Ideas:
+    Ideas:
     `
   
   // I call the OpenAI API a second time with Prompt #2
